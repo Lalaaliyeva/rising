@@ -1,0 +1,192 @@
+@media only screen and (max-width: 600px) {
+
+
+.navigation{
+    display: block;
+      
+    width:230px;
+    height:20rem;
+   
+    margin-top:-40rem;
+    
+} 
+
+.navigation nav{
+    margin-top:4rem;
+   
+}
+nav img{
+    margin-top:-15rem;
+}
+
+nav.sticky img{
+    margin-top:1rem;
+}
+
+/* .about{
+    display: block;
+    
+    margin-left:1.2rem;
+  
+}
+
+/* .haqqinda{
+  width:453px;
+  padding-right:1rem;
+  padding-left:.5rem;
+  text-align: center;
+  position: static;
+} */
+
+/* .about img{
+    width:453px;
+    height:300px;
+    position: static;
+} */
+
+nav.sticky{
+   
+    height:20vh;
+  
+    
+}
+
+/* .navigation{
+
+    
+    width:380px;
+    height:38rem;
+    
+    
+} */
+
+.products{
+    display: block;
+    margin-top:5rem;
+    margin-left:2rem;
+}
+
+.information{
+    width: 440px;
+    padding-right:1rem;
+    padding-left: 1rem;
+    text-align: center;
+}
+.products img{
+    width:440px;
+    margin-top: 0rem;
+    margin-right: 0;
+}
+
+.galaxy{
+    display: block;
+    margin-top:5rem;
+    margin-left:2rem;
+    margin-right:.5rem;
+}
+.info_cube{
+    
+    padding-top:3rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    text-align: center;
+    
+   
+}
+
+.galaxy img{
+     margin-right:0rem;
+    width:27.7rem;
+   
+}
+
+.pergolass{
+    display: block;
+    margin-top:4rem;
+    margin-left:2rem;
+}
+.info_pergolas{
+padding-top:3rem;
+    padding-left: 2rem;
+    padding-right:1rem;
+    text-align: center;
+}
+
+.pergolass img{
+    width:28.2rem;
+    margin-right:0rem;
+}
+
+.completed_contact{
+    display: block;
+    
+    margin-left:2rem;
+    background-color: black;
+    margin-right:2rem;
+    height:90rem;
+    width:450px;
+    
+}
+
+.contact_1{
+    border-right: none;
+    margin-right:0rem;
+    height:12rem;
+    padding-right:3rem;
+    
+}
+
+
+
+.contact_2{
+    margin-left:0rem;
+    margin-top:14rem;
+    border-right:none;
+      padding-right:1rem;
+    height:22rem;
+}
+
+
+
+
+.contact_2 ul{
+   
+    list-style: none;
+    display: flex;
+    margin-left:3rem;
+}
+
+
+
+.contact_3{
+    padding-left:1rem;
+}
+
+
+
+
+
+
+.contact_3 textarea{
+    background-color: transparent;
+    padding:1rem;
+    width:400px;
+}
+
+
+
+
+.contact_3 button{
+    padding:.5rem 10rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+}
+
+
+
+

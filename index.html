@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RisinGlobal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./responsiv.css">
+</head>
+<body>
+    <section class="header">
+    
+        <!--SOCIAL-->
+
+     <div class="social">
+        <p>Follow us </p>
+        <ul>
+            <li> <a href=""><i class="fa-brands fa-instagram" style="color: #000000;"></i></a> </li>
+            <li><a href=""><i class="fa-brands fa-youtube" style="color: #000000;"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-facebook-f" style="color: #000000;"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-tiktok" style="color: #000000;"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter" style="color: #000000;"></i></a></li>
+            <li><a href=""><i class="fab fa-linkedin" style="color: #000000;"></i></a></li>
+        </ul>
+     </div>
+    
+    <!--BOOTSTRAP CAROUSEL-->
+
+     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+     <div class="carousel-item active">
+      <img src="./photos/infinity-commercial.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./photos/freedom-slide-giottin-top-open.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./photos/freedom.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./photos/freedom-2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./photos/freedom-3.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./photos/freedom-4.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./photos/freedom-zip.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./photos/galaxy-1.jpg" class="d-block w-100" alt="...">
+    </div>
+   
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--NAV-->
+
+    <nav id="esas">
+        <a href="index.html" class="logo_rising"><img src="./photo/rising-20-yil.png" alt=""></a>
+        <div class="nav-links">
+            <ul>
+                <li><i class="fa-solid fa-house" style="color: red;"></i></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#our_products">Our Products</a></li>
+                <li><a href="index.html">Gallery</a></li>
+                <!-- <li><a href="#aboutt">About</a></li> -->
+                <li><a href="https://risinglobal.com/wp-content/uploads/2023/02/Rising-New.pdf" download="">Catalog</a></li>
+                <li><a href="https://wordpress.org/themes/rising-blog/">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- <li id="menu"><a href="">Menu </a></li>
+                <li id="menu_icon"><a href=""><i class="fa-solid fa-bars"></i></a></li> -->
+            </ul>
+        </div>
+    </nav>
+      
+    <!-- HAMBURGER MENU -->
+      <div class="navigation">
+         
+        <button class="hamburger" onclick="show()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+        </button>
+        
+        <nav>
+          <ul>
+             <li><a href="index.html">Home</a></li>
+                <li><a href="#our_products">Our Products</a></li>
+                <li><a href="index.html">Gallery</a></li>
+                <!-- <li><a href="#aboutt">About</a></li> -->
+                <li><a href="https://risinglobal.com/wp-content/uploads/2023/02/Rising-New.pdf" download="">Catalog</a></li>
+                <li><a href="https://wordpress.org/themes/rising-blog/">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+          </ul>
+         
+        </nav>  
+          
+          <!-- <div class="other">
+
+          <span id="number">+90 444 1 886 </span>  
+          <ul>
+            <li> <a href=""><i class="fa-brands fa-instagram" style="color: white;"></i></a> </li>
+            <li><a href=""><i class="fa-brands fa-youtube" style="color: white;"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-facebook-f" style="color: white;"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-tiktok" style="color: white;"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter" style="color: white;"></i></a></li>
+            <li><a href=""><i class="fab fa-linkedin" style="color: white;"></i></a></li>
+        </ul> 
+        </div> -->
+      </div>
+
+</section>
+<section class="banner"></section>
+
+<!-- ABOUT -->
+
+<!-- <section id="aboutt">
+  <div class="about">
+  <div class="haqqinda">
+<h1>About Rising</h1>
+    <p>In our journey that started in 2003, we have reached 54 countries with our Rising brand today.
+<br><br>
+Not only with our way of doing business, but also with our equal and participatory management model, we changed the rules in the sector and steered the sector with our female executives for the first time.
+<br><br>
+We would like to thank you, who did not leave us alone on this path, which we started with the vision of developing the sector with our management model and production approach, to be the reliable solution partner of our customers and to contribute to the world while designing decent living spaces.</p>
+  </div>  
+<img src="./photo/pexels-photo-14024793.jpeg" alt="">
+  </div>
+</section> -->
+
+<!-- OUR PRODUCTS -->
+
+<section id="our_products">
+
+<div class="products">
+  
+  <div class="info_products">
+   <h1>Our Products</h1>
+   <div class="information">
+   <h2>Pergola</h2>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora enim temporibus dicta provident blanditiis officia, tempore assumenda facilis perferendis molestiae! Voluptas reiciendis consequatur numquam commodi ab, dolorum eveniet. Excepturi cupiditate beatae quia praesentium eum! Distinctio eaque soluta, atque pariatur, delectus, iure illo ducimus earum quam a explicabo aperiam! Molestias officia et nam assumenda blanditiis similique asperiores sit, quos doloremque non corrupti cupiditate dicta modi laborum illo rem laboriosam possimus dolore quisquam vitae corporis fuga. Assumenda, eius voluptatum iusto quod adipisci ducimus eos hic commodi beatae, odio, excepturi suscipit odit enim qui facilis incidunt debitis culpa officiis dolorem expedita repudiandae nemo?</p></div>
+  </div>  
+<img src="./photo/pexels-photo-6129994.jpeg" alt="">
+  </div>
+</section>
+
+<!-- CUBE GALAXY -->
+
+<section id="cube_galaxy">
+<div class="galaxy">
+  
+  
+   <div class="info_cube">
+   <h1>Bioclimatic </h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora enim temporibus dicta provident blanditiis officia, tempore assumenda facilis perferendis molestiae! Voluptas reiciendis consequatur numquam commodi ab, dolorum eveniet. Excepturi cupiditate beatae quia praesentium eum! Distinctio eaque soluta, atque pariatur, delectus, iure illo ducimus earum quam a explicabo aperiam! Molestias officia et nam assumenda blanditiis similique asperiores sit, quos doloremque non corrupti cupiditate dicta modi laborum illo rem laboriosam possimus dolore quisquam vitae corporis fuga. Assumenda, eius voluptatum iusto quod adipisci. <br> <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum porro rem sed dolorem quae optio ad natus accusantium asperiores! Sed tenetur accusantium hic dignissimos Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, praesentium? </p></div>
+ 
+<img src="./photo/pexels-photo-12715490.jpeg" alt="">
+  </div>  
+
+</section>
+
+<!-- PERGOLAS -->
+
+<section id="pergolas">
+<div class="pergolass">
+ 
+  <div class="info_pergolas">
+   <h1>Awning</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora enim temporibus dicta provident blanditiis officia, tempore assumenda facilis perferendis molestiae! Voluptas reiciendis consequatur numquam commodi ab, dolorum eveniet. Excepturi cupiditate beatae quia praesentium eum! Distinctio eaque soluta, atque pariatur, delectus, iure illo ducimus earum quam a explicabo aperiam! Molestias officia et nam assumenda blanditiis similique asperiores sit, quos doloremque non corrupti cupiditate dicta modi laborum illo rem laboriosam possimus dolore quisquam vitae corporis fuga. Assumenda, eius voluptatum iusto quod adipisci ducimus eos hic commodi beatae, odio, excepturi suscipit odit enim qui facilis incidunt debitis culpa officiis dolorem expedita repudiandae nemo?</p></div>
+   
+<img src="./photo/pexels-quang-nguyen-vinh-2133508.jpg" alt="">
+  </div>
+
+</section>
+
+ <!-- SUBULATE MINIMA -->
+<section id="subulate_minima">
+<div class="galaxy">
+  
+  
+   <div class="info_cube">
+   <h1>Accessories</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora enim temporibus dicta provident blanditiis officia, tempore assumenda facilis perferendis molestiae! Voluptas reiciendis consequatur numquam commodi ab, dolorum eveniet. Excepturi cupiditate beatae quia praesentium eum! Distinctio eaque soluta, atque pariatur, delectus, iure illo ducimus earum quam a explicabo aperiam! Molestias officia et nam assumenda blanditiis similique asperiores sit, quos doloremque non corrupti cupiditate dicta modi laborum illo rem laboriosam possimus dolore quisquam vitae corporis fuga. Assumenda, eius voluptatum iusto quod adipisci. <br> <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum porro rem sed dolorem quae optio ad natus accusantium asperiores! Sed tenetur accusantium hic dignissimos Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, praesentium? shs</p></div>
+ 
+<img src="./photo/pexels-photo-12715490.jpeg" alt="">
+  </div>  
+
+</section>
+
+
+<!-- ARCHITECTURAL SOLUTIONS -->
+<section id="architectural_solutions">
+  <div class="pergolass">
+ 
+  <div class="info_pergolas">
+   <h1>Architectural Solutions</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora enim temporibus dicta provident blanditiis officia, tempore assumenda facilis perferendis molestiae! Voluptas reiciendis consequatur numquam commodi ab, dolorum eveniet. Excepturi cupiditate beatae quia praesentium eum! Distinctio eaque soluta, atque pariatur, delectus, iure illo ducimus earum quam a explicabo aperiam! Molestias officia et nam assumenda blanditiis similique asperiores sit, quos doloremque non corrupti cupiditate dicta modi laborum illo rem laboriosam possimus dolore quisquam vitae corporis fuga. Assumenda, eius voluptatum iusto quod adipisci ducimus eos hic commodi beatae, odio, excepturi suscipit odit enim qui facilis incidunt debitis culpa officiis dolorem expedita repudiandae nemo?</p></div>
+   
+<img src="./photo/pexels-quang-nguyen-vinh-2133508.jpg" alt="">
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer id="contact">
+<div class="completed_contact">
+
+
+<div class="contact_1">
+<img src="./photo/rising-20-yil.png" alt="">
+<p>As rising; <br>
+We Are Proud To Be Turkey's Largest Shading <br> Systems Manufacturer!</p>
+
+<ul>
+  <li><a href="#aboutt">About Us</a></li>
+  <li><a href="#our_products">Our Products</a></li>
+  <li><a href="https://risinglobal.com/wp-content/uploads/2023/02/Rising-New.pdf" download="">Catalog</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+</div>
+
+<div class="contact_2">
+<p>Akçaburgaz, 3132. Sokak No:11-13, 34522 <br> Esenyurt / İstanbul, Türkiye</p>
+<h2>+90 444 1 886</h2>
+<p>contact@risinglobal.com</p>
+<h4>Monday-Friday</h4>
+<p>08:00 - 18:30</p>
+<p>Follow us</p>
+<ul>
+            <li> <a href=""><i class="fa-brands fa-instagram" style="color: white;"></i></a> </li>
+            <li><a href=""><i class="fa-brands fa-youtube" style="color: white;"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-facebook-f" style="color: white;"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-tiktok" style="color: white;"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter" style="color: white;"></i></a></li>
+            <li><a href=""><i class="fab fa-linkedin" style="color: white;"></i></a></li>
+        </ul> 
+
+</div>
+
+<div class="contact_3">
+<input type="name" placeholder="Name Surname">
+<input type="text" placeholder="Phone Number">
+<select name="projects" id="projects">
+    <option value="project">Select a Proje</option>
+    <option value="bioclimatic_pergolas">Bioclimatic Pergolas</option>
+    <option value="pergolas">Pergolas</option>
+    <option value="architectural_solutions">Architectural Solutions</option>
+  </select>
+<input type="email" name="mail" id="mail" placeholder="E-Mail">
+<textarea name="yourmessage" id="yourmessage" cols="50" rows="4" placeholder="Your Message"></textarea>
+<input type="checkbox" name="check" id="check"> <label for="check">I have read and approve the Personal Data Protection Law.</label>
+<button>Send</button>
+</div>
+
+</div>
+
+</footer>
+
+
+
+
+<script type="text/javascript">
+  window.addEventListener("scroll",function(){
+    var header = document.querySelector("nav");
+    header.classList.toggle("sticky",window.scrollY > 0)
+  });
+
+  function show(){
+    document.querySelector('.hamburger').classList.toggle('open');
+    document.querySelector('.navigation').classList.toggle('active')
+}
+</script>
+
+
+</body>
+</html>
